@@ -89,6 +89,10 @@ regions:
     flag: 🇵🇱
     locales: pl
     osmcha.id: 98d2b447-34b6-4681-82f8-9de3adddbf1b
+  poland:
+    name: Portugal
+    flag: 🇵🇹
+    locales: pt
   romania:
     name: Romania
     flag: 🇷🇴
