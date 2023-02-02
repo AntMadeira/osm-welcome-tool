@@ -1,6 +1,6 @@
 ---
 name: Default
-title: Bem-vind@ ao OpenStreetMap!
+title: Bem-vind@ ao OpenStreetMap {{ region.flag }}!
 ---
 
 Olá, {{ mapper.displayName }}.
@@ -8,23 +8,24 @@ Olá, {{ mapper.displayName }}.
 Parabéns pela tua primeira edição do OpenStreetMap em Portugal! A comunidade agradece-te por ajudares a fazer o mapa um pouco melhor.
 
 O meu nome no OpenStreetMap é {{ app.user.displayName }} e sou um contribuidor da comunidade portuguesa, que apoiam os mapeadores que pretendem melhorar o mapa em Portugal.
-Poderás encontrar-nos em vários canais de ajuda, que encontras [aqui](https://www.openstreetmap.org/help), mas o principal é no canal Telegram da comunidade portuguesa de OSM, para o qual [te convidamos](https://t.me/OSMPortugal).
+Poderás encontrar-nos em vários canais de ajuda, que encontras [aqui](https://www.openstreetmap.org/help), mas o principal é o canal Telegram da comunidade portuguesa de OSM, para o qual [te convidamos](https://t.me/OSMPortugal).
 
-Se tiveres alguma dúvida, estamos cá para te ajudar. Se achares que estragaste alguma coisa, se não souberes como mapear alguma coisa, ou se simplesmente quiseres saber mais sobre o OpenStreetMap (assim o esperamos!), entra em contacto connosco!
-Além disso, fica à vontade para me contactares respondendo a esta mensagem ou através do meu perfil no OpenStreetMap.
+Se tiveres alguma dúvida, estamos cá para te ajudar. Se achares que "estragaste" alguma coisa, se não souberes como mapear alguma coisa, ou se simplesmente quiseres saber mais sobre o OpenStreetMap (assim o esperamos!), entra em contacto connosco!
+Além disso, fica à vontade para me contactares, respondendo a esta mensagem ou através do meu perfil no OpenStreetMap.
 
-Here's some tips to get you started:
+Aqui tens algumas dicas que te ajudarão a começar:
 
-* While the editing tools try to make it easy to find out how to map things, our [wiki pages](https://wiki.openstreetmap.org/wiki/) have much more detail. You can find a lot of information about how to map on [the wiki](https://wiki.openstreetmap.org/wiki/).  
-If you want to know how to tag something, the quickest solution may be to search for `site:wiki.openstreetmap.org [search term]` with your favourite search engine.
-* When you save your changeset, add a short but clear comment on what you have changed. ([more info here](https://wiki.openstreetmap.org/wiki/Good_changeset_comments)).
-* Make sure roads connect to each other, but don't connect them to landuse such as fields or residential areas.
-* To get a glimpse of what is going on around the world, subscribe to the [weekly newsletter about the OpenStreetMap world](https://weeklyosm.eu/).
-* Keep track of your edits with the [how did you contribute tool](https://hdyc.neis-one.org/)
+* Criámos uma página wiki com as [boas práticas do OpenStreetMap](https://wiki.openstreetmap.org/wiki/Pt:Boas_pr%C3%A1ticas), que servem como guia inicial e que te poderão orientar a dar os primeiros passos.
+* No que diz respeito ao mapeamento em Portugal, existe também uma [página de padronização do OpenStreetMap](https://wiki.openstreetmap.org/wiki/Portugal/Padroniza%C3%A7%C3%A3o) no nosso país, criada pela nossa comunidade e que contém informação útil e crucial para garantir que existe uma forma padronizada relativamente a certos elementos do mapa.
+* Embora as ferramentas de edição tentem ajudar a mapear coisas, as nossas [páginas wiki](https://wiki.openstreetmap.org/wiki/) têm muito mais detalhes. É aí que poderás encontrar muito mais informação sobre o mapeamento no OSM.
+Se quiseres saber como etiquetar alguma coisa, a solução mais rápida poderá ser pesquisar por `site:wiki.openstreetmap.org [palavra a pesquisar]` com o teu motor de busca favorito.
+* Quando adicionares o teu conjunto de alterações (changeset), adiciona um comentário curto mais claro sobre as tuas alterações, para que outros mapeadores possam saber qual o âmbito da alteração. Mais informações ([aqui](https://wiki.openstreetmap.org/wiki/Pt:Boas_pr%C3%A1ticas#Bons_coment%C3%A1rios_no_conjunto_de_altera%C3%A7%C3%B5es_(changesets)).
+* Certifica-te de que as estradas e caminhos se ligam entre si, mas não ligues esses elementos a áreas de ocupação do solo, como áreas florestais, campos agrícolas ou áreas residenciais.
+* Para teres uma ideia do que se passa ao nível da comunidade global, aconselhamos-te a subscreve o [boletim semanal sobre o OpenStreetMap](https://weeklyosm.eu/).
+* Podes acompanhar as tuas edições com a ferramenta [how did you contribute](https://hdyc.neis-one.org/)
 
-We have a wiki page to help new mappers get started. For more tips and pointers, [have a look there!](https://wiki.openstreetmap.org/wiki/WikiProject_Belgium/Beginner)
-We do hope to hear from you, and meanwhile:
+Esperamos receber notícias tuas. Entretanto...
+bons mapeamentos!
 
-Happy Mapping!
-
+Cumprimentos,
 {{ app.user.displayName }}
